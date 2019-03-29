@@ -18,7 +18,9 @@ different connecting rates, and different location reporting frequencies.
 
 ### Channel statistics with UPAs of different sizes  
 
-The dataset includes the channel information with 4x4, 4x8, 16X16 UPA deployed. 
+The dataset includes the channel information with 4x4, 4x8, 16X16 UPA deployed.
+
+To limit the size of data which includes 16^4 = 65536 beam RSRP of over 100K samples, we only include the information of the top 100 beams (including the beam power and the beam pair index) in the data. The beam index file can be found in "beam_index_nx_XXX_ny_XXX. csv" and the corresponding beam RSRP is in "channel_power_nx_XXX_ny_XXX.csv". 
 
 ## The codes 
 The codes include different classification models we apply and the hyperparameters of the models.
