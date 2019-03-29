@@ -22,9 +22,9 @@ The dataset includes the channel information with 4x4, 4x8, 16X16 UPA deployed.
 
 To limit the size of data which includes 16^4 = 65536 beam RSRP of over 100K samples, we only include the information of the top 100 beams (including the beam power and the beam pair index) in the data. The beam index file can be found in "beam_index_nx_XXX_ny_XXX. csv" and the corresponding beam RSRP is in "channel_power_nx_XXX_ny_XXX.csv". 
 
-Due to the size limit of uploaded data in github, the data can be retrieved from **Google Drive** through the following link.  
+Due to the size limit of uploaded data in github, the data can be retrieved from **Google Drive** through the following link. 
 
-https://drive.google.com/drive/u/0/folders/1BTnZDCmNUZJM_aHue67pMAZRvaFwv88T
+https://drive.google.com/drive/u/0/folders/1v8TmiMa2ATYmFxn2nB9sGDS5e3UcCk_B
 
 ## The codes 
 The codes include different classification models we apply and the hyperparameters of the models.
